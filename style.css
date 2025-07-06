@@ -1,0 +1,88 @@
+body {
+  margin:auto;
+  box-sizing:border-box;
+  background-color:#fefbf7;
+  font-family:"Arial", sans-serif;
+}
+
+
+header{
+  	color:#66545e;
+  	text-align:center;
+  	margin:0;
+  	padding:0;
+  
+}
+a{
+	color:#bfa5a0;
+}
+nav{
+	background-color:#66545e;
+  	text-align:center;
+  	margin:0;
+  	padding:10px;
+}
+nav a{
+  	text-decoration:none;
+	color:#f6e0b5;
+  	display:inline-block;
+  	padding:7px;
+  	transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover{
+	background-color:#a39193;
+  	color:#eea990;
+}
+section{
+	/*padding:20px;*/
+  	color:#66545e;
+	max-width: 800px; /* You can adjust the width as you like */
+    margin: 0 auto; /* This centers the block */
+    padding: 20px;
+    text-align: left; /* Keep text left-aligned OR change to center if you want */
+	
+}
+footer{
+	background-color:#66545e;
+  	color:#f6e0b5;
+  	text-align:center;
+  	padding:3px;
+}
+
+
+
+/*Title name animation*/
+.signature-container svg {
+  width: 400px;
+  cursor: pointer; /* Makes it feel interactive */
+}
+
+.signature {
+  fill: none;
+  stroke: #6B4F4F; /* Soft brown stroke */
+  stroke-width: 2;
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 4s linear infinite; /* Infinite loop */
+  transition: none; /* Smooth reset on hover */
+}
+
+/* Optional: Restart animation on hover */
+.signature-container:hover .signature {
+  animation: none; /* Stops the animation */
+}
+
+.signature-container:hover .signature {
+  animation: draw 4s linear infinite; /* Restarts animation */
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 800;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
