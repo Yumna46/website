@@ -1,7 +1,7 @@
 body {
   margin:auto;
   box-sizing:border-box;
-  background-color:#fefbf7;
+  background-color: #FAF7F2/*#fefbf7*/;
   font-family:"Arial", sans-serif;
 }
 
@@ -17,21 +17,21 @@ a{
 	color:#bfa5a0;
 }
 nav{
-	background-color:#66545e;
+	background-color:#5B4636;
   	text-align:center;
   	margin:0;
   	padding:10px;
 }
 nav a{
   	text-decoration:none;
-	color:#f6e0b5;
+	color:#7A6C61;
   	display:inline-block;
   	padding:7px;
   	transition: background-color 0.3s, color 0.3s;
 }
 nav a:hover{
-	background-color:#a39193;
-  	color:#eea990;
+	background-color:#A66A4C;
+  	color:#C49A6C;
 }
 section{
 	/*padding:20px;*/
@@ -43,14 +43,14 @@ section{
 	
 }
 footer{
-	background-color:#66545e;
-  	color:#f6e0b5;
+	background-color:#5B4636;
+  	color:#7A6C61;
   	text-align:center;
   	padding:3px;
 }
 /* card and hover for body*/
 .card{
-    background:white;
+    background-color:#FFFFFF;
     border-radius:15px;
     padding:25px;
     margin:25px 0;
