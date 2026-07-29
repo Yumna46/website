@@ -15,6 +15,10 @@ header{
   	padding:0;
   
 }
+header h5{
+    font-size:18px;
+    font-weight:500;
+}
 a{
 	color:#4A3F35;
 }
@@ -34,6 +38,8 @@ nav a{
   	display:inline-block;
   	padding:7px;
   	transition: background-color 0.3s, color 0.3s;
+	font-size:18px;
+	font-weight:500;
 }
 nav a:hover{
 	background-color:#A66A4C;
@@ -55,12 +61,16 @@ footer{
   	color:#FAF7F2;
   	text-align:center;
   	padding:3px;
+	font-size:16px;
 }
 h3{
 	font-size:34px;
 }
 h4{
 	font-size:26px;
+}
+p{
+	font-size:18px;
 }
 /* card and hover for body*/
 .card{
@@ -83,6 +93,9 @@ h4{
 
     font-size:28px;
 
+}
+.card p{
+	font-size:18px;
 }
 
 /*Title name animation*/
