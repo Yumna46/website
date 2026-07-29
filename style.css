@@ -3,7 +3,7 @@ body {
   box-sizing:border-box;
   background-color: #FAF7F2/*#fefbf7*/;
   font-family:"Arial", sans-serif;
-	font-size: 10px;
+	font-size: 18px;
 	line-height:1.8
 }
 
@@ -70,7 +70,7 @@ h4{
     margin:25px 0;
     box-shadow:0 6px 18px rgba(0,0,0,.07);
     transition:0.3s;
-	border-left:6px solid #A67C52;
+	border-left:6px solid #5B4636;
 	max-width:850px;
 
 }
