@@ -70,14 +70,18 @@ section{
 	/*padding:20px;*/
 	width:min(1200px,92%);
   	color:#66545e;
-	max-width: 1000px; /* You can adjust the width as you like */
+	max-width: 1200px; /* You can adjust the width as you like */
     margin: 0 auto; /* This centers the block */
-    padding: 20px;
+    padding: 20px 0;
     text-align: left; /* Keep text left-aligned OR change to center if you want */
-	padding-top:60px;
-    padding-bottom:60px;
-	scroll-margin-top:140px;
+	/*padding-top:10px;
+    padding-bottom:60px;*/
+	scroll-margin-top:90px;
 	
+}
+section h3{
+	margin-top:0;
+    margin-bottom:20px;
 }
 footer{
 	background-color:#5B4636;
@@ -120,7 +124,12 @@ p{
 .card p{
 	font-size:18px;
 }
-
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:25px;
+}
 /*Title name animation*/
 .signature-container svg {
   width: 400px;
