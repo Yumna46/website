@@ -21,10 +21,10 @@ header{
   	padding:0;
   
 }
-header h5{
+/*header h5{
     font-size:18px;
     font-weight:500;
-}
+}*/
 a{
 	color:#4A3F35;
 }
@@ -172,9 +172,33 @@ i{
 a i{
     margin-right:6px;
 }
+.social-icons{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:12px;
+    margin-bottom:20px;
+
+}
+
+.social-icons a{
+
+    color:#5B4636;
+    font-size:28px;
+    transition:all .3s ease;
+
+}
+
+.social-icons a:hover{
+
+    color:#A66A4C;
+    transform:translateY(-4px);
+
+}
 /*Title name animation*/
 .signature-container svg {
-  width: 400px;
+  width: 460px;
   cursor: pointer; /* Makes it feel interactive */
 }
 
