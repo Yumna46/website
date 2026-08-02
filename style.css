@@ -130,6 +130,40 @@ p{
     gap:30px;
     margin-top:25px;
 }
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:18px 0;
+}
+
+.badges span{
+    background:#5B4636;
+    color:#FAF7F2;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+.project-btn{
+	display:inline-block;
+	margin-top:18px;
+	padding:10px 20px;
+	background:#5B4636;
+	color:white;
+	text-decoration:none;
+	border-radius:8px;
+	transition:.3s;
+	font-weight:600;
+
+}
+
+.project-btn:hover{
+	background:#A66A4C;
+	transform:translateY(-2px);
+
+}
 /*Title name animation*/
 .signature-container svg {
   width: 400px;
