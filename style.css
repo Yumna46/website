@@ -154,11 +154,11 @@ p{
     gap:30px;
     margin-top:25px;
 }
-.projects-grid .card{
+/*.projects-grid .card{
 
     height:100%;
 
-}
+}*/
 .badges{
     display:flex;
     flex-wrap:wrap;
